@@ -1,0 +1,108 @@
+<html>
+    <head> 
+        <script src=calculator.js></script>
+        <style>
+            #calc-table {
+                height:100%; 
+                width:100%;
+                text-align:center;
+                font-size:20px;
+                font-family:Helvetica, Arial, sans-serif;
+                max-height: 800px;
+                max-width: 600px;
+                
+                
+                position: absolute;
+                margin: auto;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+
+            }
+        
+            td {
+                border: 1px solid black;
+                width: 25%;
+            }
+            
+            .calc-button {
+                color:darkorange;
+                background-color: dimgray;
+                padding: 0px;
+            }
+            
+            #calc-display {
+                text-align: right;
+                font-size: 10vmax;
+                padding-right: 10px;
+                background-color: lightgray;
+                
+            }
+        </style>
+                  
+    </head>
+    <body>
+        <table id="calc-table">
+            
+            <tr>
+                <td id="calc-display" colspan=4>0</td>
+            </tr>
+            <tr>
+                <td class="calc-button">C
+                </td>
+                <td class="calc-button">←
+                </td>
+                <td class="calc-button">+/-
+                </td>
+                <td class="calc-button">÷
+                </td>
+            </tr>
+            <tr>
+                <td class="calc-button">7
+                </td>
+                <td class="calc-button">8
+                </td>
+                <td class="calc-button">9
+                </td>
+                <td class="calc-button">*
+                </td>
+            </tr>
+            <tr>
+                <td class="calc-button">4
+                </td>
+                <td class="calc-button">5
+                </td>
+                <td class="calc-button">6
+                </td>
+                <td class="calc-button">-
+                </td>
+            
+            </tr>
+            <tr>
+                <td class="calc-button">1
+                </td>
+                <td class="calc-button">2
+                </td>
+                <td class="calc-button">3
+                </td>
+                <td class="calc-button">+
+                </td>
+            
+            </tr>
+            <tr>
+                <td class="calc-button" colspan=2>0
+                </td>
+                <td class="calc-button">.
+                </td>
+                <td class="calc-button">=
+                </td>
+            </tr>
+        </table>
+    
+    
+    
+    </body>
+
+
+</html>
