@@ -32,7 +32,7 @@ function buttonPressed(event) {
 } 
 
 
-
+//gittest
 function operatorPressed(operator) {
     var displayElement = document.getElementById("calc-display");
     if (operator == "C") {
